@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title> wipu </title>
+  
+    
+ </head>
+<body>
+    <h1>กรอกชื่อ</h1>
+      <input type="text"placeholder="Enter your name"id="name-input"/>
+      <br>
+       <h1>โปรแกรม</h1>
+ <select id="program-select" style="width: 200px;">
+ <option value="-">-</option>
+ <option value"Javascript">Javascript</option>
+ <option value"Python">Python</option>
+ <option value"Java">Java</option>
+</select>
+<h1 id="show-name">-</h1>
+<h1 id="show-program">-</h1>
+<script>
+   document.getElementById("name-input").addEventListener("input", function() {
+    const name = this.value;
+    document.getElementById("show-name").innerText = "ชื่อของคุณคือ: " + name;
+    });
+    document.getElementById("program-select").addEventListener("change", function() {
+    const program = this.value;
+    document.getElementById("show-program").innerText = "โปรแกรมที่คุณเลือกคือ: " + program;
+    });
+</script>
+ </body>
+ </html>
+
+
