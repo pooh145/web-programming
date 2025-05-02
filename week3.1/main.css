@@ -1,0 +1,36 @@
+.section1-box{
+     background-color: rgb(7, 118, 216);
+}
+
+.section1-name{
+   text-align: center;
+    color: blue (218,59,246);
+    font-size: 60px;
+} 
+
+.section1-meta-data{
+    text-align: center;
+    color: blue; rgb(218,59,246);
+    font-size: 20px;
+}
+
+.section1-profile-picture{
+    width: 500px;
+    margin-left: 35%;
+}
+
+.section1-profile-description{
+    font-size: 30px;
+    color: #3300FF;
+    text-align: center;
+   
+}
+
+
+
+
+.barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
